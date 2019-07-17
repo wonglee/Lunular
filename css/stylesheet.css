@@ -1,3 +1,8 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body {
   background: #FAFAFA;
 }
@@ -6,10 +11,23 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+[class^='grid-col-'] {
+  float:L left;
+  padding: 0;
+}
+.grid-col-1of2 {
+  width:50%;
+}
+.grid-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .cell {
   text-align:center;
   cursor:default;
-  /* width: 50%; */
+  width: 50%;
 }
 .cell img {
   display:black
