@@ -1,3 +1,16 @@
 body {
   background: #FAFAFA;
 }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cell {
+  text-align:center;
+  cursor:default;
+  /* width: 50%; */
+}
+.cell img {
+  display:black
+}
