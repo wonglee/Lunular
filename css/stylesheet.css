@@ -1,4 +1,5 @@
 *, *:after, *:before {
+		font-family: "poppins";
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8,7 +9,7 @@ nav {
 		top: 0;
 		left: 0;
 	width: 100%;
-	background-color: black;
+	/* background-color: black; */
 }
 .navbar-header{
 	color: white;
@@ -18,19 +19,21 @@ nav {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+	font-weight: bold;
 }
 .navbar-header p{
 	display: inline;
 	padding: .2em 1.4em;
 	text-align: center;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	color: #fff;
+	font-size: 1.5em;
+	color: black;
 }
 .navbar-links{
 	float: right;
+	margin-right: 2em;
 }
 .navbar-links li{
+	font-weight: bold;
 	display: inline;
 	list-style: none;
 }
@@ -43,22 +46,71 @@ nav {
 	text-decoration: none;
 }
 header{
-	margin: 3em;
+	top:0;
 	padding: 2em;
-	height: 300px;
-	background: url('../img/background.jpg');
+	height: 100vh;
+	background: url('../img/bg.svg');
   background-repeat: no-repeat;
 	background-size: cover;
   background-attachment: fixed;
 }
+header .grid .cell {
+	padding: 10em;
+}
 body {
+	/* padding: 0; */
+	margin: 0;
   background: #FAFAFA;
+}
+.grey {
+	background-color: lightgrey;
 }
 .grid {
   display: flex;
+	padding-top: 2em;
+	padding-bottom: 2em;
   flex-wrap: wrap;
   flex-direction: row;
 }
+.introduction {
+	padding: 5em;
+	background-color: #FF003D;
+	height: 100vh;
+	color: white;
+}
+h3 {
+	font-family: "Roboto";
+	font-size: 1.5em;
+}
+.introduction p{
+	padding: 1em;
+	font-size: 1.3em;
+}
+.introduction img{
+	width: 15em;
+	vertical-align: top;
+	margin: 2em;
+	display: inline-block;
+}
+.imagegroup {
+	width: 15em;
+	vertical-align: top;
+	margin: 2em;
+	display: inline-block;
+
+}
+.imagegroup h3{
+	width: 5em;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.introduction .lower {
+	margin-top: 4em;
+}
+
+
+
 
 [class^='grid-col-'] {
   float: left;
@@ -74,9 +126,11 @@ body {
 }
 .cell {
   text-align:center;
+	  display:block;
   cursor:default;
   width: 50%;
 }
+
 .cell img {
-  display:black
+	width: 20em;
 }
