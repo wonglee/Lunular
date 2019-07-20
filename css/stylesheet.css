@@ -44,8 +44,12 @@ nav {
 }
 header{
 	margin: 3em;
+	padding: 2em;
 	height: 300px;
 	background: url('../img/background.jpg');
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
 }
 body {
   background: #FAFAFA;
