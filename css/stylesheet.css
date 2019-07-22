@@ -9,7 +9,16 @@ nav {
 		top: 0;
 		left: 0;
 	width: 100%;
+	transition: background-color 400ms linear;
 	/* background-color: black; */
+}
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 400ms linear;
+}
+.navbar-fixed-top.scrolled h2 {
+	color: white;
+	transition: color 400ms linear;
 }
 .navbar-header{
 	color: white;
@@ -20,21 +29,38 @@ nav {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 	font-weight: bold;
+	height: 2em;
 }
-.navbar-header p{
+.navbar-header img{
+	width: 1.75em;
+}
+
+.navbar-header h2{
 	display: inline;
-	padding: .2em 1.4em;
+	padding: 0em 1.4em;
 	text-align: center;
+	vertical-align: top;
 	font-size: 1.5em;
 	color: black;
+	transition: color 400ms linear;
 }
 .navbar-links{
+	height: 2em;
+	/* vertical-align: middle; */
 	float: right;
+	margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 	margin-right: 2em;
+}
+.navbar-links ul {
+	margin: 0;
 }
 .navbar-links li{
 	font-weight: bold;
-	display: inline;
+	display: inline-flex;
 	list-style: none;
 }
 .navbar-links li a{
@@ -77,6 +103,10 @@ body {
 	background-color: #FF003D;
 	/* height: 100vh; */
 	color: white;
+}
+p {
+	font-weight: lighter;
+	font-family: "lato";
 }
 h3 {
 	font-family: "Roboto";
@@ -152,6 +182,7 @@ h3 {
 	vertical-align: top;
 	margin-top: 2em;
 	margin-left: :2em;
+	max-width: 80vw;
 }
 .experience h5{
 	font-size: 2em;
@@ -166,7 +197,7 @@ h3 {
 	margin-left: 3em;
 font-size: 1.25em;
 	display: inline-block;
-	max-width: 80vw;
+	min-width: 0;
 }
 .images {
 	margin: 5em;
