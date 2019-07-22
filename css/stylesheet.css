@@ -157,12 +157,30 @@ h3 {
   cursor:default;
   width: 50%;
 }
-
+.cell-4 {
+  text-align:center;
+	  display:block;
+  cursor:default;
+  max-width: 25%;
+	padding: 2em;
+}
+.cell-4 h3,.cell-4 p{
+	margin: 2rem;
+}
+.cell-4 p{
+	font-size: 14pt;
+	color: grey;
+}
+.designDecisions{
+	/* background: white; */
+	padding: 2em 8em;
+}
+.cell-4 img{
+	margin: 2em;
+	width: 50%;
+}
 .cell img {
 	width: 20em;
-}
-.designDecisions img{
-	width: 100%;
 }
 .experience {
 	/* width: 100%; */
