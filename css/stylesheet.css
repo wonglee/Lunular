@@ -48,7 +48,7 @@ nav {
 header{
 	top:0;
 	padding: 2em;
-	height: 100vh;
+	/* height: 100vh; */
 	background: url('../img/bg.svg');
   background-repeat: no-repeat;
 	background-size: cover;
@@ -75,7 +75,7 @@ body {
 .introduction {
 	padding: 5em;
 	background-color: #FF003D;
-	height: 100vh;
+	/* height: 100vh; */
 	color: white;
 }
 h3 {
@@ -93,9 +93,9 @@ h3 {
 	display: inline-block;
 }
 .imagegroup {
-	width: 15em;
+	width: 24%;
 	vertical-align: top;
-	margin: 2em;
+	/* margin: 2em; */
 	display: inline-block;
 
 }
@@ -131,8 +131,15 @@ h3 {
 .cell img {
 	width: 20em;
 }
+.designDecisions img{
+	width: 100%;
+}
 .experience {
+	/* width: 100%; */
 	padding: 5em;
+}
+.right {
+	float: right;
 }
 .experience h4{
 	font-size: 2em;
@@ -150,7 +157,7 @@ h3 {
 	font-size: 2em;
 	vertical-align: top;
 	display: block;
-	max-width: 22em;
+	/* max-width: 22em; */
 	margin-top: 1em;
 	margin-left: 2em;
 }
@@ -159,7 +166,7 @@ h3 {
 	margin-left: 3em;
 font-size: 1.25em;
 	display: inline-block;
-	max-width: 50em;
+	max-width: 80vw;
 }
 .images {
 	margin: 5em;
