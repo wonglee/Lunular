@@ -10,6 +10,8 @@ nav {
 		left: 0;
 	width: 100%;
 	transition: background-color 400ms linear;
+	z-index: 10;
+
 	/* background-color: black; */
 }
 .navbar-fixed-top.scrolled {
@@ -33,6 +35,7 @@ nav {
 }
 .navbar-header img{
 	width: 1.75em;
+	filter: drop-shadow(2px 2px 2px white);
 }
 
 .navbar-header h2{
@@ -218,19 +221,51 @@ font-size: 1.25em;
 	min-width: 0;
 }
 .images {
-	margin: 5em;
+	position: relative;
+	margin: 0 5em;
+
+}
+.images img{
+	border: 1px solid black;
+	border-radius: 15px;
+	filter: drop-shadow(2px 2px 5px black);
+}
+.images .e2-img1 {
+	position: relative;
+	float: right;
+	margin-top: 15em;
+	margin-right: 15em;
 }
 
-/* .experience h5{
-	font-size: 2em;
-	vertical-align: top;
-	display: inline-block;
-	margin-top: 2em;
-	margin-left: 2em;
+
+.e2-img2 {
+	position: absolute;
+	top:0;
+	right: 0;
+	transition: 1s;
 }
-.experience p{
-font-size: 1.25em;
-	vertical-align: top;
-	display: inline-block;
-	max-width: 20em;
-} */
+
+.images .back{
+	z-index: -1;
+}
+.e2-img3 {
+	position: absolute;
+	top: 10em;
+	right: 30em;
+	transition: 1s;
+}
+
+
+
+.images .hoverImg {
+	position: absolute;
+	right: -10em;
+	top: 16em;
+	border: none;
+	filter: none;
+}
+
+.e2-img1:hover + .front{
+	opacity: 0;
+	transition: 1s;
+}
