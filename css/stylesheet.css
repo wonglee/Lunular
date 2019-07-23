@@ -265,7 +265,7 @@ font-size: 1.25em;
 	filter: none;
 }
 
-.e2-img1:hover + .front{
+.e2-img1:hover ~ .front{
 	opacity: 0;
 	transition: 1s;
 }
