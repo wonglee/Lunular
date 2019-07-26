@@ -107,6 +107,7 @@ body {
 	/* height: 100vh; */
 	color: white;
 }
+
 p {
 	font-weight: lighter;
 	font-family: "lato";
@@ -149,13 +150,19 @@ h3 {
 .grid-col-1of2 {
   width:50%;
 }
+.grid-col-1of3 {
+	width: 33%;
+}
+.grid-col-2of3 {
+	width: 66%;
+}
 .grid-row::after {
   content: "";
   display: block;
   clear: both;
 }
 .cell {
-  text-align:center;
+  /* text-align:center; */
 	  display:block;
   cursor:default;
   width: 50%;
@@ -265,7 +272,7 @@ font-size: 1.25em;
 	filter: none;
 }
 
-.e2-img1:hover ~ .front{
+.e2-img1:hover ~  .front{
 	opacity: 0;
 	transition: 1s;
 }
