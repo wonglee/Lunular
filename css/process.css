@@ -37,6 +37,12 @@ html, body{
   background-color: #B0E0D1;
   padding: 10em 0;
 }
+.ideation h2{
+  color: white;
+}
+.ideation .cell img{
+  margin-left: 13em;
+}
 .content {
   margin: 10em;
 }
@@ -60,6 +66,9 @@ html, body{
   padding-left: 2em;
   padding-right: 10em;
 }
+.reframing {
+  margin-bottom: 5em;
+}
 .Problem .cell h2{
   margin-bottom: 1em;
 }
@@ -67,9 +76,19 @@ html, body{
   margin-top: 2em;
 }
 .Problem .cell img{
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: 90%;
 }
-
+.grey .left{
+  padding-top: 5em;
+}
+.grey {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #F5F5F5;
+}
 /* .introduction.ideation {
   padding: 10em;
   margin-right: 0;
@@ -88,6 +107,7 @@ html, body{
 
 h2 {
   font-size: 50pt;
+  color: #8AC6B3;
   margin: .2em 0;
 }
 h4{
@@ -157,7 +177,7 @@ h4{
 }
 figcaption {
   position: relative;
-  bottom: 3em;
+  /* bottom: 3em; */
   left: 2em;
   font-family: "lato";
   font-weight: lighter;
@@ -166,7 +186,6 @@ figcaption {
 .prototype h2 {
   margin-top: 1em;
 }
-.prototype
 .prototyping p {
   margin-top: 5em;
   margin-bottom:  3em;
@@ -184,6 +203,17 @@ figcaption {
 .final img{
   width: 100%;
 }
+.refactoring {
+  margin-bottom: 0;
+}
+.green {
+  padding-top: 1em;
+  background-color: #B0E0D1;
+  /* padding: 10em 0; */
+}
+.green h2{
+  color: white;
+}
 .bg2 {
   width: 100%;
   background: url('../img/Research.svg');
@@ -191,4 +221,20 @@ figcaption {
 	background-size: cover;
   background-position: 0em 15em;
   /* background-attachment: fixed; */
+}
+
+.footer {
+  vertical-align: middle;
+}
+.footer a{
+  text-decoration: none;
+  color: grey;
+}
+.footer img{
+  margin-top: 0;
+  vertical-align: middle;
+  margin-left: 1em;
+  margin-right:1em; 
+  width: 2em;
+
 }
