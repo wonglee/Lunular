@@ -1,3 +1,6 @@
+img {
+  width:100%;
+}
 p {
 
     font-size: 1.25em;
@@ -10,7 +13,33 @@ html, body{
   margin: 10em;
 }
 .content p {
-  margin: 0 3em;
+  display: block;
+  margin-right: 15em;
+}
+.cell p {
+  margin-right:13em;
+}
+.same img{
+  width: auto;
+  height: 35em;
+}
+.same h6{
+  display: inline;
+  font-family: "lato";
+  font-weight: lighter;
+  font-size: 14pt;
+  color: grey;
+  padding-left: 2em;
+  padding-right: 10em;
+}
+.Problem .cell h2{
+  margin-bottom: 1em;
+}
+.Problem .cell p{
+  margin-top: 2em;
+}
+.Problem .cell img{
+  width: 100%;
 }
 
 .introduction.ideation {
@@ -33,7 +62,16 @@ html, body{
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 50pt;
+  margin: .2em 0;
+}
+h4{
+  margin: .2em 0;
+  text-transform: uppercase;
+  font-family: "poppins";
+  font-weight: normal;
+  font-size: 24pt;
+  color: grey;
 }
 .targetAudience {
   /* margin: 10em; */
@@ -53,24 +91,57 @@ h2 {
   float: right;
 }
 
-.research .images{
+/* .research .images{
   margin-top: 3em;
   float: right;
 }
 .research{
   overflow: auto;
   color: white;
-}
+} */
 .flow {
-  color: white;
+  display: block;
+  width: 50em;
+  margin: auto;
 }
 .flow img{
-  width: 100%;
-  margin-top: 3em;
+  float: left;
+  width: 10em;
+  margin-top: 2em;
+  margin-right: 5em;
+  height: 300px;
+}
+.flowtext {
+  margin: 15em 0;
+}
+.flowtext p{
+  margin-bottom: 2em;
+}
+.Wireflow img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.wireflow p{
+  text-align: center;
+  /* margin-left: 2em; */
 }
 .sketching img{
   margin: 5em 3em;
 }
+figcaption {
+  position: relative;
+  bottom: 3em;
+  left: 2em;
+  font-family: "lato";
+  font-weight: lighter;
+  color: grey;
+}
+.prototype h2 {
+  margin-top: 1em;
+}
+.prototype
 .prototyping p {
   margin-top: 5em;
   margin-bottom:  3em;

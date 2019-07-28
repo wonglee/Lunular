@@ -1,3 +1,13 @@
+#navi {
+	position: fixed;
+	top: 20em;
+	left:3rem;
+}
+#slide {
+	position: fixed;
+	top: 20em;
+	left:2.6rem;
+}
 *, *:after, *:before {
 		font-family: "poppins";
 	-webkit-box-sizing: border-box;
@@ -13,6 +23,9 @@ nav {
 	z-index: 10;
 
 	/* background-color: black; */
+}
+.experience .images img{
+	width: 20rem;
 }
 .navbar-fixed-top.scrolled {
   background-color: black !important;
@@ -74,22 +87,21 @@ nav {
 	color: #fff;
 	text-decoration: none;
 }
-header{
+/* header{
 	top:0;
 	padding: 2em;
-	/* height: 100vh; */
 	background: url('../img/bg.svg');
   background-repeat: no-repeat;
 	background-size: cover;
   background-attachment: fixed;
-}
+} */
 header .grid .cell {
 	padding: 10em;
 }
 body {
 	/* padding: 0; */
 	margin: 0;
-  background: #FAFAFA;
+  background: #FFFFFF;
 }
 .grey {
 	background-color: lightgrey;
@@ -111,6 +123,7 @@ body {
 p {
 	font-weight: lighter;
 	font-family: "lato";
+	color: grey;
 }
 h3 {
 	font-family: "Roboto";
@@ -133,7 +146,24 @@ h3 {
 	display: inline-block;
 
 }
-.imagegroup h3{
+.grid-row .grid-col-1of2{
+	padding: 1em;
+}
+.grid-row h2 {
+	padding-left: 1.5em;
+}
+ .grid-row h4{
+	 padding-left: 3.1em;
+}
+.grid-row p {
+	padding-left: 5em;
+	width: 30em;
+}
+.figma img{
+	padding: 0 .5em;
+	width: 33%;
+}
+.figma h3{
 	width: 5em;
 	display: block;
 	margin: 0;
@@ -199,6 +229,18 @@ h3 {
 .right {
 	float: right;
 }
+.right img{
+	/* height: 18em; */
+	height: 300px;
+}
+.left{
+	float: left;
+
+}
+.left img{
+	margin-top: 2em;
+	height: 300px;
+}
 .experience h4{
 	font-size: 2em;
 	color: grey;
@@ -228,14 +270,21 @@ font-size: 1.25em;
 	min-width: 0;
 }
 .images {
+	padding-left: 5em;
 	position: relative;
-	margin: 0 5em;
+	/* margin: 0 5em; */
 
 }
+.cell.images img{
+	width: 100%;
+}
+.refactoring .cell p{
+	margin-right: 5em;
+}
 .images img{
-	border: 1px solid black;
-	border-radius: 15px;
-	filter: drop-shadow(2px 2px 5px black);
+	/* border: 1px solid black; */
+	/* border-radius: 15px; */
+	/* filter: drop-shadow(2px 2px 10px #000000); */
 }
 .images .e2-img1 {
 	position: relative;
@@ -249,7 +298,7 @@ font-size: 1.25em;
 	position: absolute;
 	top:0;
 	right: 0;
-	transition: 1s;
+	transition: .5s;
 }
 
 .images .back{
@@ -259,7 +308,7 @@ font-size: 1.25em;
 	position: absolute;
 	top: 10em;
 	right: 30em;
-	transition: 1s;
+	transition: .5s;
 }
 
 
@@ -274,5 +323,5 @@ font-size: 1.25em;
 
 .e2-img1:hover ~  .front{
 	opacity: 0;
-	transition: 1s;
+	transition: .5s;
 }
