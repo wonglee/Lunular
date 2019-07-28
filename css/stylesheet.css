@@ -87,14 +87,14 @@ nav {
 	color: #fff;
 	text-decoration: none;
 }
-/* header{
+header{
 	top:0;
 	padding: 2em;
 	background: url('../img/bg.svg');
   background-repeat: no-repeat;
 	background-size: cover;
   background-attachment: fixed;
-} */
+}
 header .grid .cell {
 	padding: 10em;
 }

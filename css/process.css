@@ -1,5 +1,29 @@
+
+.navbar-fixed-top.scrolled li a{
+	color: white;
+	transition: color 400ms linear;
+}
+.navbar-links li a{
+	color: black;
+  transition: color 400ms linear;
+}
+
 img {
   width:100%;
+}
+header{
+	top:0;
+	padding: 6em;
+	background: url('../img/process/processBG.png');
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+
+}
+header .cell {
+  margin-top: 7em;
+  width: 50em;
 }
 p {
 
@@ -8,6 +32,10 @@ p {
 html, body{
   max-width: 100%;
   overflow-x: hidden;
+}
+.ideation {
+  background-color: #B0E0D1;
+  padding: 10em 0;
 }
 .content {
   margin: 10em;
@@ -42,7 +70,7 @@ html, body{
   width: 100%;
 }
 
-.introduction.ideation {
+/* .introduction.ideation {
   padding: 10em;
   margin-right: 0;
   padding-right: 0;
@@ -54,12 +82,9 @@ html, body{
 	float: right;
 
 }
-.introduction.ideation h2{
-  /* margin-left: 3em; */
-}
 .introduction.ideation p{
   margin-left: 1em;
-}
+} */
 
 h2 {
   font-size: 50pt;
