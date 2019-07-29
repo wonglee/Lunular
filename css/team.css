@@ -19,6 +19,12 @@ h2 {
   color: #FC6868;
     margin: .2em 0;
 }
+
+h4 {
+	display: inline;
+  padding-left: 5em;
+	padding-right: 18em;
+}
 header{
 	top:0;
 	padding: 6em;
@@ -48,4 +54,5 @@ header .cell {
   margin: 2em;
   margin-top: 0;
   width: 20%;
+  height: 22vw;
 }
