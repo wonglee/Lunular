@@ -14,6 +14,20 @@
   transition: color 400ms linear;
 }
 
+header{
+	top:0;
+	padding: 6em;
+	background: url('../img/process/processHero.png');
+  background-repeat: no-repeat;
+	background-size: contain;
+  background-attachment: fixed;
+  background-position: right;
+}
+header h4{
+	font-size: 16pt;
+	font-weight: normal;
+	max-width: 20em;
+}
 img {
   width:100%;
 }
