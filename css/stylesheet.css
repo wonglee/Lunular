@@ -454,6 +454,10 @@ font-size: 1.25em;
 	opacity: 0;
 	transition: .5s;
 }
+.overlay9:hover ~  .front{
+	opacity: 0;
+	transition: .5s;
+}
 .explore .grid{
 	display: block;
 	width: 50%;

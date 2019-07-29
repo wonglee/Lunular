@@ -37,7 +37,7 @@
 .experience h2{
   font-weight: bold;
   font-size: 50pt;
-  
+
 }
 .experience p{
   max-width: 40em;
@@ -81,4 +81,22 @@ img.overlay6{
   top:-30.8em;
   left: 66.7em;
   width:13.4em;
+}
+img.overlay7{
+  position: absolute;
+  top:11em;
+  left: 4em;
+  width:13.4em;
+}
+img.overlay8{
+  position: absolute;
+  top:5.8em;
+  left: 24.9em;
+  width:13.4em;
+}
+.experience img.overlay9{
+  position: absolute;
+  top:35em;
+  left: 43.4em;
+  width: 13.4em;
 }
