@@ -174,19 +174,39 @@ h2 {
   overflow: auto;
   color: white;
 } */
+.flowGroup{
+
+	display: inline-block;
+}
+
+.flow h4{
+	padding-right: 3em;
+	padding-bottom: 3em;
+	/* vertical-align: middle; */
+	display: inline;
+	font-size: 40pt;
+	color: black;
+}
+
 .flow {
   display: block;
-  width: 50em;
+  width: 80em;
   margin: auto;
 }
 .flow img{
-  float: left;
-  width: 10em;
-  /* margin-top: 2em; */
-  margin-right: 5em;
+  /* float: left; */
+  width: 3em;
+	top:0em;
+	margin-right: 0;
+	/* padding-top: 7em; */
+	/* margin-top: 3em; */
+  /* margin-right: 5em; */
   height: 300px;
 }
 .flowtext {
+	/* position: absolute; */
+	display: inline-block;
+	max-width: 50em;
   margin: 10em 0;
 }
 .flowtext p{
@@ -224,6 +244,10 @@ figcaption {
 .prototype h2 {
   margin-top: 1em;
 }
+.prototype .right h4 {
+	top: 2em;
+	right: -1em;
+}
 .prototyping p {
   margin-top: 5em;
   margin-bottom:  3em;
@@ -244,6 +268,12 @@ figcaption {
 .refactoring {
   margin-bottom: 0;
 }
+.refactoring .left img{
+	padding-right: 2em;
+}
+.refactoring .left h4{
+	top: 4em;
+}
 .green {
   padding-top: 1em;
   background-color: #B0E0D1;
@@ -252,6 +282,64 @@ figcaption {
 .green h2{
   color: white;
 }
+.left {
+	position: relative;
+}
+.remove {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.reframing .content{
+	margin-top: 0;
+}
+#introduction .content{
+	margin-top: 0;
+}
+.left img{
+	padding-left: 2em;
+	display: inline;
+}
+.left h4{
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	font-size: 40pt;
+	color: black;
+	display: inline;
+	vertical-align: top;
+}
+#introduction .left h4{
+	top: 3em;
+}
+.Audience .left img{
+	margin-top: 0;
+}
+.right {
+	position: relative;
+}
+.right h4{
+	position: absolute;
+	top: -1em;
+	right: -.5em;
+	padding-right: 4em;
+    font-size: 40pt;
+    color: black;
+    display: inline;
+    vertical-align: top;
+}
+
+.research{
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+.research h4{
+	top: 2em;
+	right: 1.5em;
+}
+.right img {
+	padding: 0;
+	padding-right: 15em;
+}
 .bg2 {
   width: 100%;
   background: url('../img/Research.svg');
@@ -259,4 +347,15 @@ figcaption {
 	background-size: cover;
   background-position: 0em 15em;
   /* background-attachment: fixed; */
+}
+
+.footer .center h2{
+	color: #B0E0D1;
+}
+.lleft{
+	float: left;
+
+}
+.rright{
+	float: right;
 }
