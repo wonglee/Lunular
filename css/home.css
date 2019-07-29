@@ -51,3 +51,33 @@ img.overlay{
   left: 3em;
   width: 9.47em;
 }
+img.overlay2{
+  position: relative;
+  top:-6.5em;
+  left: 17.7em;
+  width:13.4em;
+}
+img.overlay3{
+  position: absolute;
+  top:-30.8em;
+  left: 4em;
+  width:13.4em;
+}
+img.overlay4{
+  position: absolute;
+  top:-30.8em;
+  left: 24.9em;
+  width:13.4em;
+}
+img.overlay5{
+  position: absolute;
+  top:-30.8em;
+  left: 45.8em;
+  width:13.4em;
+}
+img.overlay6{
+  position: absolute;
+  top:-30.8em;
+  left: 66.7em;
+  width:13.4em;
+}
