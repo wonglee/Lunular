@@ -486,3 +486,17 @@ font-size: 1.25em;
   width: 2em;
 
 }
+
+.homeHover:hover{
+	color:#F5A41E;
+}
+
+.processHover:hover{
+	color:#8AC6B3;
+
+}
+
+.teamHover:hover{
+	color:#FC6868;
+
+}
