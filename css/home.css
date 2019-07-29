@@ -1,0 +1,46 @@
+.introduction {
+  margin-top: 5em;
+}
+.introduction h3{
+  font-size: 20pt;
+  /* padding-top: 10em; */
+  margin-left: 8em;
+  display: inline;
+  padding-bottom: 10em;
+  vertical-align: top;
+
+}
+.introduction p {
+  /* vertical-align: top; */
+  margin-left: 10em;
+  margin-top: 0;
+  padding-top: 0;
+  display: inline-block;
+  max-width: 50vw;
+}
+.introduction h4{
+  color: black;
+  font-family: "lato";
+  font-weight: bold;
+  /* text-align: center; */
+  font-size: 15pt;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+.space {
+  padding-bottom: 15em;
+}
+.imagegroup img{
+  margin-top: 0;
+}
+
+.experience h2{
+  font-weight: bold;
+  font-size: 50pt;
+}
+.experience p{
+  max-width: 40em;
+}
+.right h4+img{
+  margin-right: 2em;
+}

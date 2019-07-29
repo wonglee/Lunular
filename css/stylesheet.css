@@ -42,10 +42,21 @@ nav {
 	color: white;
 	transition: color 400ms linear;
 }
-.navbar-fixed-top h2, .navbar-fixed-top li a.blue {
-	color: #8AC6B3;
+
+
+.navbar-fixed-top h2, .navbar-fixed-top li a.yellow {
+	color: #F5A41E;
 }
-.navbar-fixed-top.scrolled li a.blue{
+.navbar-links li a{
+	font-weight: bold;
+	color: black;
+  transition: color 400ms linear;
+}
+.navbar-fixed-top.scrolled li a{
+	color: white;
+	transition: color 400ms linear;
+}
+.navbar-fixed-top.scrolled li a.yellow{
 	color:black;
 }
 
@@ -74,7 +85,6 @@ nav a {
 	text-align: center;
 	vertical-align: top;
 	font-size: 1.5em;
-	color: black;
 	transition: color 400ms linear;
 }
 .navbar-links{
@@ -101,7 +111,7 @@ nav a {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 }
 header{
@@ -114,7 +124,8 @@ header{
   background-position: right;
 }
 header .cell {
-  margin-top: 7em;
+  margin-top: 20em;
+	margin-bottom: 8em;
   width: 50em;
 }
 h2 {
@@ -124,7 +135,7 @@ h2 {
 }
 h4{
   margin: .2em 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "poppins", sans-serif;
   font-weight: normal;
   font-size: 10pt;
@@ -341,8 +352,9 @@ h3 {
 	height: 300px;
 }
 .experience h4{
-	font-size: 2em;
-	color: grey;
+	padding-left: 3em;
+	font-size: 40pt;
+	color: black;
 	display: inline;
 	vertical-align: top;
 }
@@ -409,7 +421,7 @@ font-size: 1.25em;
 .images .e2-img1 {
 	position: relative;
 	/* float: right; */
-	padding-top: 22em;
+	padding-top: 27em;
 	/* margin-right: 15em; */
 	display: block;
 	margin: auto;
@@ -418,14 +430,14 @@ font-size: 1.25em;
 
 .e2-img2 {
 	position: absolute;
-	top:10em;
+	top:15em;
 	right: 21em;
 	transition: .5s;
 }
 
 .e2-img3 {
 	position: absolute;
-	top: 0em;
+	top: 5em;
 	right: 47em;
 	transition: .5s;
 }

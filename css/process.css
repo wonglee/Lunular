@@ -1,8 +1,13 @@
-
-.navbar-fixed-top.scrolled li a{
-	color: white;
-	transition: color 400ms linear;
+.navbar-fixed-top h2, .navbar-fixed-top li a {
+	color: #8AC6B3;
 }
+.navbar-fixed-top h2, .navbar-fixed-top li a.blue {
+	color: #8AC6B3;
+}
+.navbar-fixed-top.scrolled li a.blue{
+	color:black;
+}
+
 .navbar-links li a{
 	font-weight: bold;
 	color: black;
@@ -12,7 +17,7 @@
 img {
   width:100%;
 }
-header{
+/* header{
 	top:0;
 	padding: 6em;
 	background: url('../img/process/processBG.png');
@@ -25,7 +30,7 @@ header{
 header .cell {
   margin-top: 7em;
   width: 50em;
-}
+} */
 p {
 
     font-size: 1.1em;
@@ -122,14 +127,13 @@ h2 {
   color: #8AC6B3;
   margin: .2em 0;
 }
-h4{
+/* h4{
   margin: .2em 0;
-  text-transform: uppercase;
   font-family: "poppins", sans-serif;
   font-weight: normal;
   font-size: 10pt;
   color: grey;
-}
+} */
 .targetAudience {
   /* margin: 10em; */
   margin-right: 0;
