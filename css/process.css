@@ -27,7 +27,7 @@ header .cell {
 }
 p {
 
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 html, body{
   max-width: 100%;
@@ -44,19 +44,28 @@ html, body{
   margin-left: 13em;
 }
 .content {
-  margin: 10em;
+  margin: 15em;
 }
 .content p {
   display: block;
   margin-right: 15em;
 }
 .cell p {
-  margin-right:13em;
+  margin-right:10em;
 }
 .same img{
-  width: auto;
-  height: 35em;
+  /* width: auto;
+  height: 35em; */
 }
+
+ .gallery{
+	height: 35em;
+	display: flex;
+	flex-wrap: wrap;
+	align-items : flex-start;
+
+}
+
 .same h6{
   display: inline;
   font-family: "lato";
@@ -106,7 +115,7 @@ html, body{
 } */
 
 h2 {
-  font-size: 50pt;
+  font-size: 35pt;
   color: #8AC6B3;
   margin: .2em 0;
 }
@@ -115,7 +124,7 @@ h4{
   text-transform: uppercase;
   font-family: "poppins";
   font-weight: normal;
-  font-size: 24pt;
+  font-size: 10pt;
   color: grey;
 }
 .targetAudience {
@@ -152,12 +161,12 @@ h4{
 .flow img{
   float: left;
   width: 10em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   margin-right: 5em;
   height: 300px;
 }
 .flowtext {
-  margin: 15em 0;
+  margin: 10em 0;
 }
 .flowtext p{
   margin-bottom: 2em;
@@ -183,6 +192,11 @@ figcaption {
   font-weight: lighter;
   color: grey;
 }
+
+.prototype{
+    padding: 15em 0;
+}
+
 .prototype h2 {
   margin-top: 1em;
 }
@@ -234,7 +248,7 @@ figcaption {
   margin-top: 0;
   vertical-align: middle;
   margin-left: 1em;
-  margin-right:1em; 
+  margin-right:1em;
   width: 2em;
 
 }
