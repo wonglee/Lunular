@@ -43,6 +43,9 @@ html, body{
 .ideation .cell img{
   margin-left: 13em;
 }
+.ideation .cell .right img{
+	margin-left: 5em;
+}
 .content {
   margin: 15em;
 }
@@ -54,15 +57,17 @@ html, body{
   margin-right:10em;
 }
 .same img{
+	height: 100%;
   /* width: auto;
   height: 35em; */
 }
 
  .gallery{
-	height: 35em;
+	height: 34em;
 	display: flex;
 	flex-wrap: wrap;
 	align-items : flex-start;
+	width: 50em;
 
 }
 
