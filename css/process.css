@@ -4,6 +4,7 @@
 	transition: color 400ms linear;
 }
 .navbar-links li a{
+	font-weight: bold;
 	color: black;
   transition: color 400ms linear;
 }
@@ -243,20 +244,4 @@ figcaption {
 	background-size: cover;
   background-position: 0em 15em;
   /* background-attachment: fixed; */
-}
-
-.footer {
-  vertical-align: middle;
-}
-.footer a{
-  text-decoration: none;
-  color: grey;
-}
-.footer img{
-  margin-top: 0;
-  vertical-align: middle;
-  margin-left: 1em;
-  margin-right:1em;
-  width: 2em;
-
 }

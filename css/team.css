@@ -1,0 +1,51 @@
+.navbar-fixed-top.scrolled li a{
+	color: white;
+	transition: color 400ms linear;
+}
+.navbar-links li a{
+	font-weight: bold;
+	color: black;
+  transition: color 400ms linear;
+}
+.navbar-fixed-top h2, .navbar-fixed-top li a.red {
+	color: #FC6868;
+}
+.navbar-fixed-top.scrolled li a.red{
+	color:black;
+}
+
+h2 {
+    font-size: 35pt;
+  color: #FC6868;
+    margin: .2em 0;
+}
+header{
+	top:0;
+	padding: 6em;
+  padding-bottom: 0;
+	background: none;
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+
+}
+
+.grid {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+header .cell {
+  margin-top: 7em;
+  width: 50em;
+}
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items : flex-start;
+}
+.img img{
+  margin: 2em;
+  margin-top: 0;
+  width: 20%;
+}

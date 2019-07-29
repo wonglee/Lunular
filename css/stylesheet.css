@@ -35,6 +35,16 @@ nav {
 	color: white;
 	transition: color 400ms linear;
 }
+.navbar-fixed-top h2, .navbar-fixed-top li a.blue {
+	color: #8AC6B3;
+}
+.navbar-fixed-top.scrolled li a.blue{
+	color:black;
+}
+
+nav a {
+	text-decoration: none;
+}
 .navbar-header{
 	color: white;
 	float:left;
@@ -326,4 +336,20 @@ font-size: 1.25em;
 .e2-img1:hover ~  .front{
 	opacity: 0;
 	transition: .5s;
+}
+
+.footer {
+  vertical-align: middle;
+}
+.footer a{
+  text-decoration: none;
+  color: grey;
+}
+.footer img{
+  margin-top: 0;
+  vertical-align: middle;
+  margin-left: 1em;
+  margin-right:1em;
+  width: 2em;
+
 }
