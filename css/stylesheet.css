@@ -9,7 +9,7 @@
 	left:2.6rem;
 }
 *, *:after, *:before {
-		font-family: "poppins";
+		font-family: "poppins", sans-serif;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -124,7 +124,7 @@ body {
 
 p {
 	font-weight: lighter;
-	font-family: "lato";
+	font-family: "lato", sans-serif;
 	color: #333333;
 }
 h3 {
