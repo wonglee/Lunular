@@ -201,6 +201,9 @@ figcaption {
 .prototype{
     padding: 15em 0;
 }
+.prototype h2, .prototype p, .prototype h4 {
+	padding-left: 3rem;
+}
 
 .prototype h2 {
   margin-top: 1em;
