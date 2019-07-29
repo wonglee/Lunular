@@ -30,10 +30,7 @@ p {
 
     font-size: 1.1em;
 }
-html, body{
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
 .ideation {
   background-color: #B0E0D1;
   padding: 10em 0;

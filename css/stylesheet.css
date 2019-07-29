@@ -1,3 +1,7 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 #navi {
 	position: fixed;
 	top: 20em;
@@ -99,15 +103,30 @@ nav a {
 }
 header{
 	top:0;
-	padding: 2em;
-	background: url('../img/bg.svg');
+	padding: 6em;
+	background: url('../img/process/processBG.png');
   background-repeat: no-repeat;
 	background-size: cover;
   background-attachment: fixed;
-}
+  background-position: right;
 
-header .grid .cell {
-	padding: 10em 20em 10em 0;
+}
+header .cell {
+  margin-top: 7em;
+  width: 50em;
+}
+h2 {
+  font-size: 35pt;
+  /* color: #8AC6B3; */
+  margin: .2em 0;
+}
+h4{
+  margin: .2em 0;
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  font-weight: normal;
+  font-size: 10pt;
+  color: grey;
 }
 
 body {
@@ -125,9 +144,19 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
 }
+.introimg{
+	background: url('../img/home/yellowRect.svg');
+  background-repeat: no-repeat;
+	background-size:contain;
+	/* background-size: cover; */
+	background-position: right;
+}
 .introduction {
 	padding: 5em;
-	background-color: #FF003D;
+
+  /* background-attachment: fixed; */
+
+	/* background-color: #FF003D; */
 	/* height: 100vh; */
 	color: white;
 }
@@ -140,6 +169,23 @@ p {
 h3 {
 	font-family: "Roboto";
 	font-size: 1.5em;
+}
+.swipe {
+	position: absolute;
+	width: 100%;
+	transform: translateY(-15em);
+	z-index: 0;
+}
+.arswipe {
+	position: absolute;
+	/* width: 100%; */
+	transform: translateY(-10em);
+	z-index: 0;
+	right: 0;
+}
+.introduction {
+	position: relative;
+	z-index: 2;
 }
 .introduction p{
 	padding: 1em;
@@ -182,9 +228,11 @@ h3 {
 	padding: 0;
 }
 .introduction .lower {
-	margin-top: 4em;
+	margin-top: 2em;
 }
-
+.introduction img{
+	margin-bottom: 0;
+}
 [class^='grid-col-'] {
   float: left;
   padding: 0;
@@ -224,6 +272,8 @@ h3 {
 	color: grey;
 }
 .designDecisions{
+	position: relative;
+	z-index: 2;
 	/* background: white; */
 	padding: 2em 8em;
 }
@@ -235,8 +285,11 @@ h3 {
 	width: 20em;
 }
 .experience {
+	position: relative;
+	z-index: 5;
 	/* width: 100%; */
 	padding: 5em;
+	/* margin: 3em; */
 }
 .right {
 	float: right;
@@ -260,11 +313,19 @@ h3 {
 	vertical-align: top;
 }
 .expGroup {
+	position: relative;
+	z-index: 5;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 2em;
-	margin-left: :2em;
-	max-width: 80vw;
+	padding-left: 3em;
+	/* margin-right: 3em; */
+	max-width: 70vw;
+}
+.gallery {
+	float: right;
+	position: relative;
+	z-index: 5;
 }
 .experience h5{
 	font-size: 2em;
@@ -272,11 +333,12 @@ h3 {
 	display: block;
 	/* max-width: 22em; */
 	margin-top: 1em;
-	margin-left: 3rem;
+	/* margin-left: 3rem; */
 }
 .experience p{
 	margin-top: 0;
-	margin-left: 3rem;
+	margin-top: 2em;
+	/* margin-left: 3rem; */
 font-size: 1.25em;
 	display: inline-block;
 	min-width: 0;

@@ -19,14 +19,14 @@ $(function () {
   // });
 
 
-
-  $(document).on( 'scroll', function(){
-     if($("#introduction").isInViewport()){
-       // console.log("seen");
-       // $('#scroll').animate({top: '-=10'}, 10);
-     }
-
-  });
+  // 
+  // $(document).on( 'scroll', function(){
+  //    if($("#introduction").isInViewport()){
+  //      // console.log("seen");
+  //      // $('#scroll').animate({top: '-=10'}, 10);
+  //    }
+  //
+  // });
 
   // console.log("yolo");
   // document.addEventListener('scroll', function (event) {
@@ -35,14 +35,14 @@ $(function () {
   //     }
   // }, true /*Capture event*/);
 
-
-  $.fn.isInViewport = function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = elementTop + $(this).outerHeight();
-    var viewportTop = $(window).scrollTop();
-    var viewportBottom = viewportTop + $(window).height();
-    return elementBottom > viewportTop && elementTop < viewportBottom;
-  };
+  //
+  // $.fn.isInViewport = function() {
+  //   var elementTop = $(this).offset().top;
+  //   var elementBottom = elementTop + $(this).outerHeight();
+  //   var viewportTop = $(window).scrollTop();
+  //   var viewportBottom = viewportTop + $(window).height();
+  //   return elementBottom > viewportTop && elementTop < viewportBottom;
+  // };
 
 
 });
