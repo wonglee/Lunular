@@ -44,3 +44,10 @@
 .right h4+img{
   margin-right: 2em;
 }
+
+img.overlay{
+	position: relative;
+	top:-21.6em;
+  left: 3em;
+  width: 9.47em;
+}
