@@ -112,7 +112,6 @@ header{
 	background-size: cover;
   background-attachment: fixed;
   background-position: right;
-
 }
 header .cell {
   margin-top: 7em;
@@ -364,7 +363,7 @@ h3 {
 	z-index: 5;
 
 }
-.gallery {
+.gallery1 {
 	float: right;
 	position: relative;
 	z-index: 5;
